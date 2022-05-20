@@ -1,0 +1,83 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0px;
+  color: black;
+}
+
+input {
+  width: 500px;
+  height: 100%;
+  font-size: 30px;
+  border:none;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  background: transparent;
+}
+
+#clock{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+  margin: 0px;
+}
+
+#login-form {
+  position:absolute;
+  left:50%;
+  top:65%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+}
+
+#greeting {
+  position:absolute;
+  left:50%;
+  top:65%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+}
+
+#weather {
+  text-align: right;
+}
+
+#todo-form {
+  position:absolute;
+  left:50%;
+  top:72%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+}
+
+#todo-list {
+  position:absolute;
+  left:80%;
+  top:77%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+  list-style:none;
+  padding-left:0px;
+}
+
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+::placeholder{
+  color:black;
+}
